@@ -11,12 +11,8 @@ input.addEventListener('input', evt => {
   console.log(evt);
   inputValue = input.value;
   console.log(inputValue);
-  for (let i = 0; i < length; i++) {
-    const element = array[i];
-    if (2 > array[i]) {
-      fetchCountries(inputValue);
-    }
-  }
+
+  fetchCountries(inputValue);
 
   // fetchCountries(inputValue);
 });
