@@ -18,3 +18,13 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country__img {
+  width: 100px;
+  height: 60px;
+  margin-right: 20px;
+}
+.country-li {
+  display: flex;
+  margin-bottom: 30px;
+}
